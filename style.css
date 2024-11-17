@@ -10,8 +10,11 @@
   background-color: hsl(0, 0%, 8%);
   display: flex;
   justify-content: center;
+  max-width: 100%;
+  align-items: center;
   min-height: 100vh;
 }
+
 
 .conteiner_content{
   margin: 3rem;
@@ -58,6 +61,7 @@ p{
 .link_list{
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .link_list a{
@@ -66,7 +70,8 @@ p{
   background-color: hsl(0, 0%, 20%);
   margin: 10px;
   padding: 15px 20px;
-  width: 25em;
+  width: 100%;
+  max-width: 28em;
   border-radius: 10px;
   transition: .3s;
 }
