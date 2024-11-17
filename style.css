@@ -66,7 +66,7 @@ p{
   background-color: hsl(0, 0%, 20%);
   margin: 10px;
   padding: 15px 20px;
-  width: 300px;
+  width: 25em;
   border-radius: 10px;
   transition: .3s;
 }
